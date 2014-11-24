@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 
         var done = this.async(),
             cmd = "git clone";
-            args = ["clone", "https://github.com/sisoputnfrba/so-ensamblador"];
+            args = ["clone", "https://github.com/fishkel-truelogic/so-ensamblador"];
 
         var clone = spawn(cmd, args);
 
